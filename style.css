@@ -73,6 +73,10 @@ body{
 }
 
 .Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
     color: rgb(255, 255, 255);
     font-weight: bold;
     background: url(WoodFence.jpg) center center;
@@ -87,7 +91,7 @@ body{
 #BtnResume{
     font-size: 1em;
     font-weight: bold;
-    padding: 10px 40px;
+    padding: 10px 30px;
     border: 5px solid;
     border-radius: 10px;
     transition: background-color 0.25s;
