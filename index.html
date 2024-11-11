@@ -9,14 +9,25 @@
     <script defer src="script.js"></script>
 </head>
 <body>
+
+    <!--Pause Game-->
+    <div id="PauseGame" class="popup">
+        <div class="Menu">
+            <h2>Game Paused</h2>
+            <button id="BtnResume">Resume</button>
+        </div>
+    </div>
+
+    <!--Trung tam dieu khien-->
     <div class="GameIndex">
         <div class="gameInfo">
             <p id="Score">Score: 0</p>
             <p id="Life">Life: ❤️❤️❤️</p>
         </div>
+        <button id="BtnPause">Pause</button>
         <div class="BtnContainer">
-            <div id="MoveLeft" class="buttons">◀</div>
-            <div id="MoveRight" class="buttons">▶</div>
+            <button id="MoveLeft" class="buttons">◀</button>
+            <button id="MoveRight" class="buttons">▶</button>
         </div>
     </div>
 </body>
