@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 97vh;
+    font-family: monospace, arial, san-serif;
+    align-items: center;
+    background: url(af4c2340ceabbcd5053acc53ca9403a2.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.GameIndex{
+    display: flex;
+    border: 7px double rgb(182, 87, 49);
+    padding: 30px;
+    width: 100%;
+    height: 125px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    align-items: center;
+    margin-top: auto;
+    background-color: rgb(194, 194, 194);
+    justify-content: space-between;
+}
+
+.BtnContainer{
+    display: flex;
+    gap: 10px;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: rgb(2, 213, 255);
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(2, 145, 255);
+}
